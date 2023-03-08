@@ -1,8 +1,12 @@
+import WeatherCard from './components/WeatherCard';
+import WeatherForm from './components/WeatherForm';
+
 const App = () => {
   return (
-    <div>
-      <h1>Weather App</h1>
-    </div>
+    <>
+      <WeatherForm />
+      <WeatherCard />
+    </>
   );
 };
 
